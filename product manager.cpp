@@ -221,8 +221,8 @@ int main() {
     ops.addProduct(p3);
 
     // Tạo khách hàng
-    Customer c1("Nguyen Van A", "C001");
-    Customer c2("Le Thi B", "C002");
+    Customer c1("Nguyen Van ", "C001");
+    Customer c2("Le Thanh", "C002");
 
     ops.addCustomer(c1);
     ops.addCustomer(c2);
@@ -241,3 +241,4 @@ int main() {
 
     return 0;
 }
+
